@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == 1) {
             if (grantResults.length > 0
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Log.d("brad", "OK");
+                Log.d("DK", "SAY OK,OK U can take it");
             } else {
-                Log.d("brad", "XX");
+                Log.d("DK", "SAY NO,I don't want it.");
             }
         }
     }
